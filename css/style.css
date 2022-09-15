@@ -293,6 +293,18 @@ header{
    .nav{
     padding:14px 0;
    }
+   .sub-heading{
+    margin-top: 30px ;
+    font-size:1.3rem;
+        text-align:right;
+
+}
+.post-text{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin:1rem 0;
+    text-align:right;
+}
    .post-container{
       margin: 0 auto;
         width: 95%;
@@ -318,8 +330,22 @@ header{
     font-size: 2rem;
    }
    .header-image{
-    height: 360px;
+    height: 350px;
+        margin-bottom:0rem ;
+
    }
+   .sub-heading{
+    margin-top:50px ;
+    font-size:1.3rem;
+        text-align:right;
+
+}
+.post-text{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-bottom:10px ;
+    text-align:right;
+}
    .post-header{
     height: 400px;
    }
