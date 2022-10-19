@@ -8,14 +8,17 @@ scroll-behavior: smooth;
 scroll-padding-top: 2rem; 
 box-sizing: border-box;
 
+
 }
+body {background-color:#f8f9fa;}
 
 /* variables */
 :root {
     --container-color: #1a1e1a;
-    --second-color: #ed2bffb6;
+    --second-color: #e01064;
     --text-color: #172317;
-    --bg-color: #fff;
+    --bg-color: #faf8fa;
+    --nav-color:#e7ecff;
 }
 ::selection{
     color : var(--bg-color);
@@ -40,7 +43,7 @@ section{
 }
 /* header */
 header.shadow{
-    background-color: var(--bg-color);
+    background-color: var(--nav-color);
     box-shadow:0 1px 4px hsl(0 4% 15% / 10%); 
     transition: 0.3s;
 }
